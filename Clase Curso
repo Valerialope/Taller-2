@@ -1,0 +1,32 @@
+public class Curso {
+    private String materia;
+    private int nrc;
+
+    public Curso() {
+        this.materia = "Desconocido";
+        this.nrc = 0;
+    }
+
+
+    public Curso(String materia, int nrc) {
+        this.materia = materia;
+        this.nrc = nrc;
+    }
+
+
+    public String getMateria() {
+        return materia;
+    }
+
+    public void setMateria(String materia) {
+        this.materia = materia;
+    }
+
+    public int getNrc() {
+        return nrc;
+    }
+
+    public void setNrc(int nrc) {
+        this.nrc = nrc;
+    }
+}
